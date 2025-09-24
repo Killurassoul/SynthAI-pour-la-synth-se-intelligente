@@ -15,12 +15,12 @@ langchain-community==0.0.29
 
 # Embedding & NLP
 sentence-transformers==2.2.2
-transformers==4.36.2
-torch==2.2.1
+transformers==4.35.2
+torch==2.1.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 
 # Utilitaires
 PyYAML==6.0.1
-numpy==1.26.4  # Version unifiée
+numpy==1.26.4
 tqdm==4.66.1
 
 # Data Processing & Visualisation
