@@ -1,0 +1,29 @@
+# Core
+fastapi==0.109.1
+uvicorn==0.27.0
+python-dotenv==1.0.0
+
+# Vector DB
+chromadb==0.4.22
+pypika==0.48.9
+posthog==3.5.0
+
+# LangChain
+langchain==0.1.12
+langchain-core==0.1.33
+langchain-community==0.0.29
+
+# Embedding & NLP
+sentence-transformers==2.2.2
+transformers==4.36.2
+torch==2.2.1
+
+# Utilitaires
+PyYAML==6.0.1
+numpy==1.26.4  # Version unifiée
+tqdm==4.66.1
+
+# Data Processing & Visualisation
+pandas==2.0.3
+openpyxl==3.1.2
+matplotlib==3.7.2
