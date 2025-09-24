@@ -1,0 +1,17 @@
+python-3.11.6
+fastapi==0.109.1
+uvicorn==0.27.0
+python-dotenv==1.0.0
+chromadb==0.4.22
+pypika==0.48.9
+posthog==3.5.0
+langchain==0.1.12
+langchain-core==0.1.33
+langchain-community==0.0.29
+sentence-transformers==2.2.2
+transformers==4.35.2
+torch==2.8.0
+PyYAML==6.0.1
+numpy==1.26.4
+tqdm==4.66.1
+pandas==2.1.1
