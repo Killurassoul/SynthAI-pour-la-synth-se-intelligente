@@ -16,7 +16,7 @@ langchain-community==0.0.29
 # Embedding & NLP
 sentence-transformers==2.2.2
 transformers==4.35.2
-pip install torch==2.1.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torch==2.8.0 -f https://download.pytorch.org/whl/torch_stable.html
 
 
 # Utilitaires
