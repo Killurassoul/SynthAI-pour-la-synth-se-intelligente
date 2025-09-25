@@ -1,23 +1,8 @@
-# NumPy pour le calcul numérique
 numpy==1.26.4
-
-# Pandas pour la manipulation de données
 pandas==2.2.0
-
-# FastAPI pour créer l'API
 fastapi==0.100.0
-
-# Uvicorn comme serveur ASGI
 uvicorn==0.23.2
-
-# Requests pour les requêtes HTTP
 requests==2.32.0
-
-# Matplotlib pour les graphiques
 matplotlib==3.8.1
-
-# Openpyxl pour lire/écrire des fichiers Excel
-openpyxl==3.1.3
-
-# python-docx pour manipuler les fichiers Word
-python-docx==1.2.0
+python-docx==0.8.11
+python-multipart==0.0.6
