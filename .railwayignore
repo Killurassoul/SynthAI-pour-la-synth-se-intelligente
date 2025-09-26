@@ -65,3 +65,27 @@ npm-debug.log*
 yarn-error.log*
 .pnp.*
 .pnp.js
+# Fichiers Python compilés
+*.pyc
+__pycache__/
+
+# Environnements virtuels
+.venv/
+ras/
+
+# Bases de données locales
+*.db
+
+# Logs
+*.log
+
+# Fichiers temporaires ou de sauvegarde
+*.swp
+*.bak
+*.tmp
+
+# Node modules si présents
+node_modules/
+
+# Fichiers spécifiques à ton IDE
+.vscode/
