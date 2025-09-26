@@ -1,2 +1,34 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Ignorer l'environnement virtuel
+.venv/
+ras/
+env/
+
+# Ignorer les fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers logs
+*.log
+
+# Ignorer les dossiers de dépendances JS si tu en as
+node_modules/
+
+# Ignorer les fichiers temporaires ou caches
+*.sqlite3
+*.db
+*.DS_Store
+*.egg-info/
+dist/
+build/
+
+# Ignorer les fichiers médias lourds (si tu en as)
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+
+# Ignorer les fichiers secrets ou clés
+.env
