@@ -1,0 +1,31 @@
+# Environnements virtuels
+ras/
+.venv/
+
+# Caches Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers de logs
+*.log
+
+# Bases de données locales
+*.sqlite3
+*.db
+
+# Fichiers médias lourds
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+
+# Modèles ML volumineux
+*.h5
+*.pt
+*.ckpt
+*.bin
+
+# Autres fichiers temporaires
+*.tmp
