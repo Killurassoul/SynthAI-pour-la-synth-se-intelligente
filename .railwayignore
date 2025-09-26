@@ -1,31 +1,67 @@
 # Environnements virtuels
 ras/
 .venv/
+env/
+venv/
 
-# Caches Python
+# Cache Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
 
-# Fichiers de logs
+# Logs et fichiers temporaires
 *.log
+*.tmp
+*.temp
+*.swp
+*.swo
 
 # Bases de données locales
 *.sqlite3
 *.db
+*.db-journal
 
-# Fichiers médias lourds
+# Dossiers de médias volumineux
 *.mp4
 *.avi
 *.mov
+*.mkv
+*.wav
+*.mp3
+*.ogg
+*.flac
 *.zip
 *.tar.gz
+*.rar
+*.7z
 
-# Modèles ML volumineux
+# Fichiers de données lourdes
+*.csv
+*.tsv
+*.jsonl
 *.h5
+*.pkl
 *.pt
-*.ckpt
 *.bin
 
-# Autres fichiers temporaires
-*.tmp
+# Dossiers de configuration locale
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
