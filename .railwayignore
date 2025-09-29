@@ -1,91 +1,123 @@
-# Environnements virtuels
-ras/
-.venv/
-env/
-venv/
-
-# Cache Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pdb
-*.egg-info/
-*.egg
-
-# Logs et fichiers temporaires
+# ========================
+# SYSTÈME & ENVIRONNEMENT
+# ========================
+.git/
+.gitignore
+README.md
+LICENSE
 *.log
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# Bases de données locales
-*.sqlite3
-*.db
-*.db-journal
-
-# Dossiers de médias volumineux
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wav
-*.mp3
-*.ogg
-*.flac
-*.zip
-*.tar.gz
-*.rar
-*.7z
-
-# Fichiers de données lourdes
-*.csv
-*.tsv
-*.jsonl
-*.h5
-*.pkl
-*.pt
-*.bin
-
-# Dossiers de configuration locale
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Fichiers système
+logs/
 .DS_Store
 Thumbs.db
-desktop.ini
+.desktop.ini
 
-# Node/npm
-node_modules/
-npm-debug.log*
-yarn-error.log*
-.pnp.*
-.pnp.js
-# Fichiers Python compilés
-*.pyc
+# ========================
+# PYTHON - CACHE & VIRTUAL ENV
+# ========================
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Environnements virtuels
-.venv/
-ras/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Bases de données locales
-*.db
-
-# Logs
-*.log
-
-# Fichiers temporaires ou de sauvegarde
-*.swp
-*.bak
-*.tmp
-
-# Node modules si présents
-node_modules/
-
-# Fichiers spécifiques à ton IDE
+# ========================
+# IDE & ÉDITEURS
+# ========================
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# TEST & DOCUMENTATION
+# ========================
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.docs/
+docs/_build/
+
+# ========================
+# UPLOADS & DONNÉES TEMPORAIRES
+# ========================
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ========================
+# FICHIERS SPÉCIFIQUES AU PROJET
+# ========================
+# Fichiers de configuration locaux
+config.local.*
+settings.local.*
+*.local.*
+
+# Fichiers de backup
+*.bak
+*.backup
+
+# ========================
+# NOTEBOOKS & DONNÉES LOURDES
+# ========================
+*.ipynb
+*.ipynb_checkpoints
+data/
+datasets/
+models/
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# ========================
+# DÉPLOIEMENT & DOCKER
+# ========================
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.*.yml
+.github/
+.gitlab-ci.yml
+.railway/
+railway.json
